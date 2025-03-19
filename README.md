@@ -10,7 +10,7 @@
 
 ## Overview
 
-AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited in production environments.
+AEGIS is a heirarchal database for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited in production environments.
 
 **The security landscape for frontier AI systems requires a paradigm shift in how we approach vulnerability assessment.** Traditional security frameworks fall short when applied to self-modifying, probabilistic systems capable of emergent behaviors. AEGIS implements a multi-layered, recursive evaluation methodology that scales with model capabilities and adapts to novel attack vectors.
 
