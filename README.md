@@ -33,17 +33,6 @@ Current security evaluation methodologies are increasingly misaligned with the c
 ## The AEGIS Framework Advantage
 
 AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited.
-Resources
-Readme
-License
-AGPL-3.0 license
-Activity
-Stars
-0 stars
-Watchers
-1 watching
-Forks
-0 forks
 
 AEGIS introduces a fundamentally different approach to AI security assessment built on five core principles:
 
