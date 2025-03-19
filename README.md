@@ -45,7 +45,8 @@ AEGIS introduces a fundamentally different approach to AI security assessment bu
 5. **Hierarchical Security Architecture**: Multi-layered defensive assessment that maintains integrity across model interaction patterns.
 
 
-AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited.
+**AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited.
+**
 
 ## Repository Structure
 
