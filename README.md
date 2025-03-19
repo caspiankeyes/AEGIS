@@ -1,6 +1,6 @@
-# AEON
+# AEON: Advanced Exponential Optimization Network
 
-# AEON AID: Advanced Exponential Optimization Network Asymmetric Intelligence Database
+# AEON AID: Asymmetric Intelligence Database
 
 <div align="center">
 <img src="https://img.shields.io/badge/Version-3.7.0-blue.svg" alt="Version 3.7.0">
