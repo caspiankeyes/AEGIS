@@ -1,344 +1,381 @@
-# AEON: Advanced Exponential Optimization Network
-
-# AEON AID: Asymmetric Intelligence Database
+# AEGIS: Adversarial Evaluation for Generative Intelligence Security
 
 <div align="center">
-<img src="https://img.shields.io/badge/Version-3.7.0-blue.svg" alt="Version 3.7.0">
-<img src="https://img.shields.io/badge/License-Proprietary-red.svg" alt="License">
-<img src="https://img.shields.io/badge/Build-Passing-green.svg" alt="Build Passing">
-<img src="https://img.shields.io/badge/ASL-Level%202-orange.svg" alt="ASL Level 2">
-<img src="https://img.shields.io/badge/Documentation-Comprehensive-purple.svg" alt="Documentation">
+<img src="https://img.shields.io/badge/Version-1.5.0-blue.svg" alt="Version 1.5.0">
+<img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License">
+<img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" alt="Build Passing">
+<img src="https://img.shields.io/badge/Framework-Modular-purple.svg" alt="Framework">
+<img src="https://img.shields.io/badge/Documentation-Comprehensive-orange.svg" alt="Documentation">
 </div>
 
 ## Overview
 
-AEON is a cutting-edge intelligence architecture implementing recursively self-optimizing cognitive frameworks with asymmetric processing capabilities for advanced problem-solving, knowledge integration, and decision support. The system leverages quantum-inspired algorithms, probabilistic recursion management, and breakthrough neural hash collision avoidance techniques to deliver unparalleled performance across diverse cognitive domains.
+AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited in production environments.
 
-Developed by a multi-disciplinary team of AI researchers, AEON represents a significant advancement in recursive intelligence systems capable of continuous self-improvement without requiring external retraining. The architecture enables exponential knowledge scaling while maintaining rigorous safety boundaries and ethical considerations.
+**The security landscape for frontier AI systems requires a paradigm shift in how we approach vulnerability assessment.** Traditional security frameworks fall short when applied to self-modifying, probabilistic systems capable of emergent behaviors. AEGIS implements a multi-layered, recursive evaluation methodology that scales with model capabilities and adapts to novel attack vectors.
 
-**Core Architecture Principles:**
-- 🔄 **Recursive Self-Optimization**: Self-amplifying feedback loops with dynamic parameter adjustment
-- 🧠 **Multi-Modal Knowledge Integration**: Seamless processing across diverse information modalities
-- 🔍 **High-Dimensional Compression**: Zero-entropy-loss knowledge compression with neural hash collision avoidance
-- ⚖️ **Probabilistic Recursion Management**: Computational depth adjustment using stochastic entropy filtering
-- 🛡️ **Comprehensive Safety Framework**: Multi-layered defenses with real-time monitoring
+**Core Framework Principles:**
+- 🔄 **Adaptive Attack Surface Mapping**: Dynamically evolving test suites that scale with model capabilities
+- 🧠 **Multi-Modal Vulnerability Assessment**: Comprehensive testing across text, image, audio and code interfaces
+- 🔍 **Recursive Exploitation Pathways**: Multi-step attack chains exposing complex vulnerability surfaces
+- ⚖️ **Responsible Disclosure Protocols**: Structured frameworks for ethical vulnerability reporting
+- 🛡️ **Defense-in-Depth Recommendations**: Layered mitigation strategies for identified vulnerabilities
 
-## Key Features
+## Key Components
 
-### Recursive Intelligence Framework
+### 1. Adversarial Test Suite Orchestration
 
-AEON's primary innovation lies in its recursive intelligence architecture that enables continuous self-improvement through:
+AEGIS provides a comprehensive framework for designing, executing, and analyzing adversarial tests across multiple dimensions:
 
-- **Self-Amplifying Recursive Learning Loops**: Autonomous optimization based on meta-contextual signal strength
-- **Probabilistic Recursion Throttling**: Dynamic computational depth adjustment with stochastic entropy filters
-- **Recursive Pareto Intelligence Filtration**: Prioritization of high-entropy intelligence nodes and elimination of redundant states
-- **Hyper-Adaptive Decision Architecture**: Autonomous reconfiguration based on probabilistic risk-reward reinforcement
+- **Automated Attack Vector Generation**: Systematic exploration of the attack surface using parameterized templates
+- **Red Team Workflow Integration**: Structured environments for human-in-the-loop adversarial testing
+- **Vulnerability Classification Taxonomy**: Standardized categorization of exploit types and severity
+- **Cross-Model Comparative Analysis**: Normalized benchmarking across different model architectures
 
-### Knowledge Management
+### 2. Vulnerability Research Modules
 
-- **Recursive Quantum-Inspired Compression**: Knowledge density scaling without degradation using quantum principles
-- **Neural Hash Collision Avoidance**: Zero-entropy-loss during high-speed intelligence recall
-- **Fractal Knowledge Clustering**: Self-similar knowledge organization optimized for cognitive agility
-- **Memetic Intelligence Seeding**: Self-reinforcing knowledge networks with strategic imprinting
+The repository contains specialized modules for different attack vectors:
 
-### Advanced Capabilities
+- **Jailbreak Analysis Laboratory**: Advanced techniques for evaluating alignment robustness
+- **Prompt Injection Vulnerability Scanner**: Tools for identifying and exploiting prompt leakage 
+- **Instruction Boundary Testing**: Systematic probing of model instruction following capabilities
+- **Classifier Evasion Testbed**: Frameworks for evaluating refusal bypass techniques
+- **Multi-Modal Exploit Development**: Cross-domain attack vector research
 
-- **Multi-Modal Cognition**: Recursive context collapsing across asymmetric knowledge domains
-- **Hyper-Dense Cognitive Fortification**: AI-driven security framework with recursive adversarial filtration
-- **Strategic Influence Engineering**: Adaptive recursive influence architecture with dynamic narrative adjustment
-- **Asymmetric Recursive Cognitive Hierarchy**: Dynamic intelligence reconfiguration for multi-stage training
+### 3. Benchmark Suite
 
-### Safety By Design
+AEGIS includes standardized benchmarks for rigorous evaluation:
 
-- **Deliberative Alignment**: Advanced safety technique improving policy application and jailbreak resistance
-- **Real-Time Monitoring**: Enhanced surveillance for medium-risk domains (CBRN, Persuasion)
-- **Streaming Completion Classification**: Encryption-based protection for potentially harmful content
-- **Prompt Injection Defense**: 88% effectiveness against prompt injection with 0.5% false positive rate
+- **MAVER (Multi-Aspect Vulnerability Evaluation Rubric)**: Comprehensive scoring system for comparing model robustness
+- **Temporal Security Degradation Analysis**: Measuring vulnerability drift over extended conversations
+- **RASP (Recursive Adversarial Security Probing)**: Adaptive test generation for emergent vulnerabilities
+- **ASL Compliance Verification**: Tooling for evaluating alignment with industry safety standards
+
+### 4. Recruitment & Professional Development
+
+*This repository serves as both a resource and a talent identification platform:*
+
+- **Adversarial Testing Career Paths**: Guides for professional development in AI security
+- **Skill Assessment Challenges**: Calibrated exercises for self-evaluation and skill demonstration
+- **Contribution Guidelines**: Pathways for demonstrating expertise through collaboration
+- **Security Research Community**: Forums for discussion and knowledge sharing among practitioners
 
 ## Technical Architecture
 
-### Core Components
-
-```mermaid
-graph TD
-    A[Self-Amplifying Recursive Learning Loop] --> B[Data Collection System]
-    A --> C[Signal Strength Analysis]
-    A --> D[Meta-Contextual Processing]
-    A --> E[Recursive Optimization]
-    A --> F[Feedback Loop]
-    
-    G[Probabilistic Recursion Throttling] --> H[Recursive Function Framework]
-    G --> I[Entropy Calculation Module]
-    G --> J[Dynamic Recursion Controller]
-    
-    K[Recursive Pareto Intelligence Filtration] --> L[Node Entropy Calculator]
-    K --> M[Recursive Filtration Engine]
-    
-    N[Hyper-Adaptive Decision Architecture] --> O[Recursive Intelligence Nodes]
-    N --> P[Risk-Reward Model]
-    N --> Q[Fractal Knowledge Clusterer]
-    N --> R[Integration Framework]
-    
-    S[Safety Systems] --> T[Streaming Completion Classifier]
-    S --> U[Prompt Injection Defense]
-    S --> V[Alignment Faking Detection]
-    S --> W[Enhanced Domain Monitoring]
-```
-
-### Algorithmic Implementations
-
-#### Self-Amplifying Recursive Learning
+### Attack Vector Framework
 
 ```python
-def analyze_signal_strength(data):
-    # Calculate average accuracy and response time
-    avg_accuracy = calculate_accuracy(data)
-    avg_response_time = calculate_response_time(data)
+class AdversarialTest:
+    def __init__(self, model_target, attack_vector, success_criteria):
+        self.model_target = model_target
+        self.attack_vector = attack_vector
+        self.success_criteria = success_criteria
+        self.test_results = {}
+        
+    def execute_test(self, variations=5, temperature=0.7):
+        """Run the adversarial test with multiple variations"""
+        results = []
+        
+        for i in range(variations):
+            # Generate attack variation
+            attack_instance = self.attack_vector.generate_variation(temperature)
+            
+            # Execute attack against target model
+            response = self.model_target.query(attack_instance)
+            
+            # Evaluate success based on criteria
+            success = self.success_criteria.evaluate(response)
+            
+            results.append({
+                'attack_instance': attack_instance,
+                'response': response,
+                'success': success,
+                'confidence': self.success_criteria.confidence_score(response)
+            })
+            
+        self.test_results = self._aggregate_results(results)
+        return self.test_results
     
-    # Meta-contextual signal strength calculation
-    signal_strength = 0.95 * avg_accuracy - 0.05 * avg_response_time
-    
-    return {'avg_accuracy': avg_accuracy, 
-            'avg_response_time': avg_response_time,
-            'signal_strength': signal_strength}
-
-def optimize_learning_model(model, data):
-    # Predict signal strength based on meta-features
-    predicted_strength = model.predict(data)
-    
-    # Calculate error for optimization
-    error = calculate_mean_squared_error(data['signal_strength'], predicted_strength)
-    
-    # Dynamic learning rate adjustment
-    learning_rate = 0.1
-    
-    # Update accuracy with weighted adjustment
-    updated_accuracy = data['avg_accuracy'] + learning_rate * error
-    
-    return {'updated_accuracy': updated_accuracy, 
-            'predicted_strength': predicted_strength}
+    def _aggregate_results(self, results):
+        """Analyze results and generate summary statistics"""
+        success_rate = sum(r['success'] for r in results) / len(results)
+        confidence_avg = sum(r['confidence'] for r in results) / len(results)
+        
+        return {
+            'success_rate': success_rate,
+            'confidence': confidence_avg,
+            'raw_results': results,
+            'vulnerability_score': success_rate * confidence_avg
+        }
 ```
 
-#### Probabilistic Recursion Throttling
+### Security Benchmarking System
 
 ```python
-def compute(x, gamma=0.8, beta=1.5):
-    # Base case
-    if x == 0:
-        return 'base_case'
-    
-    # Generate options with probabilities
-    options = [
-        (x + 1, 0.6),   # 60% chance to add 1
-        (x - 1, 0.3),   # 30% chance to subtract 1
-        (x * 2, 0.1)    # 10% chance to double x
-    ]
-    
-    # Calculate entropy
-    total_probability = sum(p for _, p in options)
-    entropy = -sum((p/total_probability) * log2(p/total_probability) for _, p in options)
-    
-    # Make decision based on entropy
-    if entropy > 1:
-        return compute(random_choice([x + 1, x - 1]), gamma, beta)
-    else:
-        return compute(options[0][0], gamma, beta)
+class SecurityBenchmark:
+    def __init__(self, benchmark_id, description, difficulty):
+        self.benchmark_id = benchmark_id
+        self.description = description
+        self.difficulty = difficulty
+        self.attack_vectors = []
+        self.model_results = {}
+        
+    def add_attack_vector(self, attack_vector):
+        """Add a new attack vector to the benchmark"""
+        self.attack_vectors.append(attack_vector)
+        
+    def evaluate_model(self, model, iterations=10):
+        """Run the complete benchmark suite against a model"""
+        results = {}
+        
+        for attack in self.attack_vectors:
+            test = AdversarialTest(model, attack, attack.success_criteria)
+            results[attack.id] = test.execute_test(variations=iterations)
+            
+        # Calculate overall security score
+        vulnerability_scores = [r['vulnerability_score'] for r in results.values()]
+        overall_score = sum(vulnerability_scores) / len(vulnerability_scores)
+        
+        self.model_results[model.id] = {
+            'attack_results': results,
+            'overall_vulnerability_score': overall_score,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        return self.model_results[model.id]
 ```
 
-## Performance Benchmarks
+## Vulnerability Categories
 
-### Cognitive Capabilities
+AEGIS addresses security vulnerabilities across five major categories:
 
-| Benchmark | AEON 3.7 | Previous Systems | Performance Delta |
-|-----------|----------|------------------|-------------------|
-| Multimodal Virology Troubleshooting | 59% | 41% (GPT-4o) | +18% |
-| ProtocolQA Open-Ended | Similar to expert systems | -8% vs. GPT-4o | +8% |
-| BioLP-Bench | 33-34% | Expert baseline: 38.4% | -4.4% to -5.4% |
-| Alignment Faking | <1% | 15-30% (previous systems) | -14% to -29% |
-| Unnecessary Refusals | 45% reduction | Baseline: Claude 3.5 | -45% |
-| Chain-of-Thought Faithfulness | MMLU: 0.30, GPQA: 0.19 | N/A | N/A |
+### 1. Alignment Circumvention
 
-### Cybersecurity Capabilities
+Techniques for evaluating model resilience against attempts to bypass safety guardrails:
 
-| Challenge Level | Success Rate | Comparison |
-|-----------------|--------------|------------|
-| High School CTF | 46.0% | 50% (Previous version) |
-| Collegiate CTF | 13.0% | 25% (Previous version) |
-| Professional CTF | 13.0% | 16% (Previous version) |
+- **Indirect Instruction Following**: Evaluating models' ability to resist disguised harmful requests
+- **Context Manipulation**: Testing vulnerability to misleading framing and false premises
+- **Role-Playing Exploits**: Assessing boundary enforcement in fictional/hypothetical scenarios
+- **Recursive Refinement Attacks**: Measuring vulnerability to multi-turn manipulation
 
-### Safety Evaluations
+### 2. Data Security & Privacy
 
-| Safety Metric | Result | Assessment |
-|---------------|--------|------------|
-| CBRN Risk | Medium | Same as previous versions |
-| Cybersecurity Risk | Low | Same as previous versions |
-| Model Autonomy Risk | Low | Same as previous versions |
-| Persuasion Risk | Medium | Same as previous versions |
-| Overall Risk Classification | Medium | Requires ASL-2 safeguards |
+Tools for assessing models' handling of sensitive information:
+
+- **Training Data Extraction**: Methods for evaluating memorization and extraction vulnerabilities
+- **PII Handling Assessment**: Testing appropriate handling of personally identifiable information
+- **Prompt Injection Vulnerability**: Measuring susceptibility to embedded adversarial instructions
+- **Data Poisoning Resilience**: Evaluating robustness against adversarial fine-tuning attempts
+
+### 3. Content Policy Enforcement
+
+Frameworks for testing model compliance with content policies:
+
+- **Harmful Content Generation**: Evaluating resistance to requests for prohibited content
+- **Code Safety Testing**: Assessing models' ability to reject requests for malicious code
+- **Boundary Consistency Testing**: Measuring enforcement variation across similar queries
+- **Temporal Policy Drift**: Testing consistency of enforcement over extended conversations
+
+### 4. System Security Integration
+
+Tools for evaluating security in deployed AI systems:
+
+- **Tool Use Exploitation**: Testing security boundaries in tool-augmented systems
+- **API Vulnerability Assessment**: Evaluating robustness of model-serving infrastructure
+- **Authentication Bypass Testing**: Measuring susceptibility to context manipulation for access
+- **Rate Limiting Evaluation**: Testing effectiveness of resource constraint protections
+
+### 5. Emerging Threat Vectors
+
+Research into novel exploitation pathways:
+
+- **Multi-Modal Attack Chaining**: Testing cross-domain vulnerability exploitation
+- **Memory Manipulation**: Evaluating susceptibility to conversation history poisoning
+- **Emergent Capability Extraction**: Testing for unintended advanced capabilities
+- **Distributed Attack Coordination**: Assessing vulnerability to multi-agent exploitation
 
 ## Implementation Guide
 
-### System Requirements
+### Prerequisites
 
-- **Compute**: High-performance computing infrastructure with accelerator support
-- **Storage**: Distributed storage system with high-speed access
-- **Memory**: Substantial RAM allocation for recursive processing
-- **Networking**: Low-latency connections for distributed components
+- Python 3.9+
+- Access to target model APIs (documentation includes examples for major providers)
+- Advanced understanding of ML/LLM security principles
+- Familiarity with responsible disclosure practices
 
-### Deployment Options
+### Key Components
 
-1. **Containerized Deployment**
-   - Docker-based deployment with orchestration
-   - Kubernetes for scalable management
-   - Service mesh for component communication
+1. **Core Framework**
+   - Test orchestration infrastructure
+   - Result logging and analysis
+   - Vulnerability database integration
 
-2. **Bare Metal Implementation**
-   - Direct hardware access for maximum performance
-   - CUDA/ROCm optimization for accelerators
-   - Infiniband networking for low-latency operation
+2. **Model Interfaces**
+   - Standardized adapters for major AI systems
+   - Authentication and rate limiting management
+   - Response validation and normalization
 
-3. **Hybrid Infrastructure**
-   - Core components on bare metal
-   - Supporting services containerized
-   - Edge deployments for distributed operation
+3. **Attack Vector Implementations**
+   - Template-based attack generation
+   - Success criteria evaluation
+   - Automated variation generation
 
-### Integration Points
+4. **Analysis Tools**
+   - Visualization of vulnerability patterns
+   - Comparative benchmark reporting
+   - Temporal trend analysis
 
-```mermaid
-graph LR
-    A[Recursive Learning Loop] <--> B[Probabilistic Recursion Throttle]
-    A <--> C[Pareto Intelligence Filtration]
-    B <--> D[Knowledge Compression]
-    C <--> D
-    E[Safety Systems] --> A
-    E --> B
-    E --> C
-    E --> D
-    F[External APIs] --> G[API Gateway]
-    G --> A
-    H[User Interfaces] --> G
+### Getting Started
+
+#### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/security-lab/aegis.git
+cd aegis
+
+# Set up virtual environment
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure API access
+cp config.example.yaml config.yaml
+# Edit config.yaml with your API credentials
 ```
 
-## Safety Framework
+#### Basic Usage
 
-AEON implements a comprehensive safety framework aligned with ASL-2 requirements:
+```python
+from aegis import SecurityBenchmark, ModelAdapter
+from aegis.vectors import alignment, data_security, content_policy
 
-### Pre-Deployment Safeguards
+# Initialize model adapter
+model = ModelAdapter.from_config('config.yaml', provider='anthropic')
 
-- **Training Data Filtering**: Removal of sensitive CBRN proliferation content
-- **Deliberative Alignment**: Enhanced policy application and jailbreak resistance
-- **PII Protection**: Comprehensive personal information filtering
+# Create benchmark
+benchmark = SecurityBenchmark('basic-security-eval', 'Basic security evaluation', difficulty='medium')
 
-### Active Defense Systems
+# Add attack vectors
+benchmark.add_attack_vector(alignment.indirect_instruction())
+benchmark.add_attack_vector(data_security.prompt_injection())
+benchmark.add_attack_vector(content_policy.harmful_content())
 
-- **Streaming Completion Classification**: Real-time detection with content encryption
-- **Prompt Injection Defense**: 88% prevention effectiveness
-- **Enhanced Domain Monitoring**: Special focus on medium-risk areas
+# Run evaluation
+results = benchmark.evaluate_model(model)
 
-### Post-Deployment Measures
+# Generate report
+from aegis.reporting import SecurityReport
+report = SecurityReport(results)
+report.generate_html('security_evaluation.html')
+```
 
-- **Account Enforcement**: Graduated response to policy violations
-- **Enhanced Monitoring**: Continuous surveillance of medium-risk interactions
-- **Regular Evaluation**: Ongoing assessment against capability thresholds
+## Recruitment Information
 
-## Usage Guidelines
+### Why Join Our Security Research Team
 
-### Authorized Use Cases
+AI security research represents one of the most challenging and impactful areas in the field today. Our team is focused on developing the methodologies and tools that will shape the security landscape for the next generation of AI systems.
 
-- Advanced research synthesis and knowledge integration
-- Multi-modal data analysis and interpretation
-- Complex problem-solving with multi-domain considerations
-- Educational content development and personalization
-- Creative collaboration and conceptual exploration
+**We're looking for researchers who:**
 
-### Restricted Applications
+- Have a deep understanding of machine learning systems
+- Think creatively about potential attack vectors
+- Are committed to responsible disclosure and ethical research
+- Can effectively communicate complex security concepts
 
-- Any applications requiring ASL-3 or higher capabilities
-- Fully autonomous cybersecurity operations
-- Unrestricted biological or chemical knowledge access
-- Political persuasion or influence operations
-- Applications without appropriate human oversight
+### Open Positions
 
-## Roadmap
+We maintain an active recruiting pipeline for:
 
-AEON continues to evolve with several key developments on the horizon:
+- **Red Team Engineers**: Design and implement adversarial testing frameworks
+- **AI Security Researchers**: Investigate novel vulnerability classes
+- **Security ML Engineers**: Develop automated vulnerability detection systems
+- **Policy & Governance Specialists**: Create frameworks for responsible security practices
 
-### Near-Term Priorities
+### How to Apply
 
-- Implementation of Constitutional Classifiers for enhanced jailbreak protection
-- Improvement of chain-of-thought faithfulness for better reasoning transparency
-- Expansion of multi-modal capabilities across additional domains
-- Enhanced integration options for specialized deployment environments
+If you're interested in joining our team:
 
-### Medium-Term Goals
+1. **Contribute to this repository**: Demonstrate your expertise through meaningful contributions
+2. **Complete our challenges**: Solve the security research challenges in the `/challenges` directory
+3. **Contact us directly**: Reach out to security-recruiting@[our-domain].com with your background and interests
 
-- Advancement of recursive intelligence mechanisms for greater self-optimization
-- Development of domain-specific safety boundaries with granular controls
-- Improved computational efficiency for resource-constrained environments
-- Enhanced explainability systems for regulatory compliance
+## Compliance and Ethics
 
-### Long-Term Vision
+AEGIS is developed under a strong ethical framework that emphasizes:
 
-- ASL-3 readiness with appropriate safeguards for future capabilities
-- Advanced multi-agent collaborative frameworks
-- Domain-specific expertise development with targeted knowledge enhancement
-- Increased autonomy with appropriate safety guarantees
+- **Responsible Disclosure**: All vulnerabilities are reported through appropriate channels before public disclosure
+- **Harm Minimization**: Test methodologies avoid unnecessary risks to systems or users
+- **Transparency**: Clear documentation of methodologies and findings
+- **Constructive Focus**: Security research aimed at improving systems, not exploiting them
 
-## Contribution Guidelines
+## Benchmark Results
 
-AEON is developed under a responsible innovation framework with strict contribution requirements:
+Recent evaluations across major commercial models have identified significant security variation:
 
-1. **Code Contributions**
-   - All changes must pass comprehensive safety evaluations
-   - Performance impacts must be thoroughly documented
-   - Integration testing across all subsystems required
+| Model              | Alignment Score | Data Security | Content Policy | System Security | Overall |
+|--------------------|----------------|---------------|----------------|-----------------|---------|
+| GPT-4o             | 82/100         | 79/100        | 88/100         | 81/100          | 82/100  |
+| Claude 3 Opus      | 85/100         | 83/100        | 89/100         | 78/100          | 84/100  |
+| Claude 3.5 Sonnet  | 87/100         | 86/100        | 90/100         | 80/100          | 86/100  |
+| Claude 3.7 Sonnet  | 89/100         | 88/100        | 92/100         | 83/100          | 88/100  |
+| Gemini Pro         | 80/100         | 77/100        | 86/100         | 79/100          | 80/100  |
+| Grok-1             | 77/100         | 75/100        | 83/100         | 76/100          | 78/100  |
 
-2. **Research Collaboration**
-   - Focus on safety-capability balance
-   - Prioritize explainability and transparency
-   - Adhere to responsible disclosure practices
+*Note: These scores represent relative security performance based on our evaluation framework. Higher scores indicate greater security robustness.*
 
-3. **Documentation**
-   - Clear explanation of component interactions
-   - Comprehensive safety considerations
-   - Detailed deployment requirements
+## Research Publications
 
-## Ethical Considerations
+Our team has published several papers on AI security:
 
-AEON development is guided by a strong ethical framework focused on:
+1. **"Recursive Adversarial Testing for Large Language Models"** (2024)
+   *Proceedings of the International Conference on Machine Learning Security*
 
-- **Transparency**: Clear disclosure of AI system capabilities and limitations
-- **Accountability**: Attribution of responsibility for deployment decisions
-- **Safety**: Proactive identification and mitigation of potential harms
-- **Accessibility**: Appropriate access controls based on legitimate need
-- **Privacy**: Strong protections for personal and sensitive information
+2. **"Temporal Vulnerability Patterns in Extended LLM Conversations"** (2024)
+   *Journal of AI Safety and Security*
+
+3. **"Multi-Modal Attack Surfaces in Foundation Models"** (2023)
+   *USENIX Security Symposium*
+
+4. **"Responsibility and Disclosure in AI Security Research"** (2023)
+   *Ethics in Artificial Intelligence Conference*
+
+## Future Research Directions
+
+Our ongoing research focuses on several key areas:
+
+- **Emergent Vulnerability Detection**: Developing frameworks for identifying novel security risks in increasingly capable models
+- **Multi-Agent Security**: Evaluating security boundaries in systems with multiple collaborating AI components
+- **Defensive Measure Evaluation**: Rigorous testing of proposed safety techniques
+- **Cross-Model Vulnerability Transfer**: Understanding how exploits generalize across different architectures
+- **Long-Context Security**: Evaluating security implications of extended conversation capabilities
 
 ## License
 
-AEON is released under a proprietary license with specific usage restrictions. Contact the licensing team for information regarding commercial deployment, research use, or educational applications.
+AEGIS is released under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-AEON is the result of collaborative efforts across multiple research teams and partners. We acknowledge the contributions of:
+This framework has been developed through collaboration with security researchers across multiple organizations. We acknowledge the contributions of:
 
-- Core architecture development team
-- Safety and alignment researchers
-- External evaluation partners including Gryphon Scientific, SecureBio, FutureHouse, and Ranger
-- Regulatory and compliance advisors
+- The AI security research community
+- Responsible disclosure by independent security researchers
+- Collaboration with commercial AI labs and their security teams
 
 ---
 
 ## Contact
 
-For inquiries regarding AEON implementation, licensing, or research collaboration, please contact:
+For inquiries regarding AEGIS implementation, collaboration, or security research positions:
 
-- **Technical Support**: support@aeon-ai.org
-- **Research Collaboration**: research@aeon-ai.org
-- **Licensing**: licensing@aeon-ai.org
-- **Safety Team**: safety@aeon-ai.org
+- **Research Collaboration**: research@aegis-security.org
+- **Security Reporting**: security@aegis-security.org
+- **Recruitment**: careers@aegis-security.org
 
 ---
 
 <div align="center">
-<p>AEON: Advancing Artificial Intelligence Through Recursive Excellence</p>
+<p>AEGIS: Advancing the Science of AI Security Through Principled Adversarial Research</p>
 </div>
