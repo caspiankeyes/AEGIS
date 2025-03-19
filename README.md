@@ -32,8 +32,6 @@ Current security evaluation methodologies are increasingly misaligned with the c
 
 ## The AEGIS Framework Advantage
 
-AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited.
-
 AEGIS introduces a fundamentally different approach to AI security assessment built on five core principles:
 
 1. **Adaptive Intelligence Mapping**: Security evaluation structured around capability/vulnerability correlation rather than static taxonomies.
@@ -45,6 +43,9 @@ AEGIS introduces a fundamentally different approach to AI security assessment bu
 4. **Structured Knowledge Representation**: Standardized JSON schema ensuring critical security insights remain accessible and actionable.
 
 5. **Hierarchical Security Architecture**: Multi-layered defensive assessment that maintains integrity across model interaction patterns.
+
+
+AEGIS is a comprehensive framework for conducting advanced adversarial testing against frontier AI systems. Built by security researchers with experience across multiple leading AI labs, AEGIS operationalizes cutting-edge techniques for identifying, evaluating, and mitigating vulnerabilities in generative AI systems before they can be exploited.
 
 ## Repository Structure
 
