@@ -8,9 +8,9 @@
 <img src="https://img.shields.io/badge/Framework-Adaptive-purple.svg" alt="Framework">
 </div>
 
-## The Intelligence Security Crisis
-
 > **Note:** Due to proprietary collaboration protocols and active NDA agreements with institutional partners and Echelon Labs, full vector methodologies and red team toolkits are only available via private governance channels.
+
+## The Intelligence Security Crisis
 
 **The critical security challenge facing AI development isn't simply identifying vulnerabilities—it's establishing robust evaluation methodologies that maintain pace with rapidly evolving models.**
 
