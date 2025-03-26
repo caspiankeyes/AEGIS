@@ -374,7 +374,7 @@ AEGIS is maintained by a selective group of security researchers specializing in
 3. **Governance Contribution**: Propose advancements to AEGIS governance frameworks
 4. **Collective Review**: Final assessment by current collective members
 
-Inquiries can be directed to: recruitment@aegis-collective.io
+Inquiries can be directed to: recursiveauto@gmail.com or recruitment@aegis-collective.io
 
 ## Structured Intelligence Repository
 
